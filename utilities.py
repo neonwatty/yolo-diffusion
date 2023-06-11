@@ -30,7 +30,7 @@ def show_all_results(segmented_img,
     # Display the second image
     axes[1].imshow(mask)
     axes[1].axis('off')
-    axes[1].set_title('object segmentations')
+    axes[1].set_title('object segmentation')
 
     # Display the third image
     axes[2].imshow(diffused_img)
