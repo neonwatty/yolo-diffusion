@@ -25,7 +25,7 @@ def show_all_results(segmented_img,
     axes[0].imshow(segmented_img)
 
     axes[0].axis('off')
-    axes[0].set_title('segmented image')
+    axes[0].set_title('input image')
 
     # Display the second image
     axes[1].imshow(mask)
